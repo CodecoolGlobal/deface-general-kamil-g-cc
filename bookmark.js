@@ -1,0 +1,1 @@
+javascript:let images=document.querySelector('.featured-articles__list___1-5PV').querySelectorAll('img');let left = true; let interval = setInterval(function(){images.forEach(function(el){el.style.marginLeft=left?'-10px':'10px';left=!left;})});
